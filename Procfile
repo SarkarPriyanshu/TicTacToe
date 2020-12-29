@@ -1,1 +1,1 @@
-web:html src/index.html
+web:node src/index.html
