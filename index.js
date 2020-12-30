@@ -114,7 +114,6 @@ const playerHasWon = () => {
             return true;
         }
     }
-
 }
 
 
@@ -137,3 +136,6 @@ restart.addEventListener('click',restartFunc)
 
 restartFunc()//envoking restartFunc
 drawBoxes() //envoking drawBoxes
+
+
+module.exports = drawBoxes;
