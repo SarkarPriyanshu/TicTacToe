@@ -11,6 +11,7 @@ let boxes = Array.from(document.querySelectorAll('.box'));
 let playText = document.getElementById('playText')
 let restart = document.getElementById('restart')
 
+
 //Adding border to boxes of board..
 const drawBoxes = () => {
     boxes.forEach((box,index) => {
